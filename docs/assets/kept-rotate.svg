@@ -1,3 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <path fill="#152d4f" d="M19.223 19.223 A10.215 10.215 0 1 1 17.108 3.154 L18.444 0.839 20.157 8.196 14.556 7.573 15.893 5.258 A7.785 7.785 0 1 0 17.505 17.505Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <title>Rotate wheel</title>
+  <desc>In-game ship wheel from Redoubt puzzle/interaction/rotation_wheel.svg, in site navy.</desc>
+  <g id="spokes-and-grips">
+    <g transform="rotate(0 100 100)">
+      <path d="M100 84V25" stroke="#152d4f" stroke-width="6.5" stroke-linecap="round" />
+      <path d="M96 32V26C96 23 93 22 93 18V10C93 5 96 2 100 2S107 5 107 10V18C107 22 104 23 104 26V32Z" fill="#152d4f" transform="translate(100 0) scale(1.0 1) translate(-100 0)" />
+    </g>
+    <g transform="rotate(45 100 100)">
+      <path d="M100 84V25" stroke="#152d4f" stroke-width="6.5" stroke-linecap="round" />
+      <path d="M96 32V26C96 23 93 22 93 18V10C93 5 96 2 100 2S107 5 107 10V18C107 22 104 23 104 26V32Z" fill="#152d4f" transform="translate(100 0) scale(1.0 1) translate(-100 0)" />
+    </g>
+    <g transform="rotate(90 100 100)">
+      <path d="M100 84V25" stroke="#152d4f" stroke-width="6.5" stroke-linecap="round" />
+      <path d="M96 32V26C96 23 93 22 93 18V10C93 5 96 2 100 2S107 5 107 10V18C107 22 104 23 104 26V32Z" fill="#152d4f" transform="translate(100 0) scale(1.0 1) translate(-100 0)" />
+    </g>
+    <g transform="rotate(135 100 100)">
+      <path d="M100 84V25" stroke="#152d4f" stroke-width="6.5" stroke-linecap="round" />
+      <path d="M96 32V26C96 23 93 22 93 18V10C93 5 96 2 100 2S107 5 107 10V18C107 22 104 23 104 26V32Z" fill="#152d4f" transform="translate(100 0) scale(1.0 1) translate(-100 0)" />
+    </g>
+    <g transform="rotate(180 100 100)">
+      <path d="M100 84V25" stroke="#152d4f" stroke-width="6.5" stroke-linecap="round" />
+      <path d="M96 32V26C96 23 93 22 93 18V10C93 5 96 2 100 2S107 5 107 10V18C107 22 104 23 104 26V32Z" fill="#152d4f" transform="translate(100 0) scale(1.0 1) translate(-100 0)" />
+    </g>
+    <g transform="rotate(225 100 100)">
+      <path d="M100 84V25" stroke="#152d4f" stroke-width="6.5" stroke-linecap="round" />
+      <path d="M96 32V26C96 23 93 22 93 18V10C93 5 96 2 100 2S107 5 107 10V18C107 22 104 23 104 26V32Z" fill="#152d4f" transform="translate(100 0) scale(1.0 1) translate(-100 0)" />
+    </g>
+    <g transform="rotate(270 100 100)">
+      <path d="M100 84V25" stroke="#152d4f" stroke-width="6.5" stroke-linecap="round" />
+      <path d="M96 32V26C96 23 93 22 93 18V10C93 5 96 2 100 2S107 5 107 10V18C107 22 104 23 104 26V32Z" fill="#152d4f" transform="translate(100 0) scale(1.0 1) translate(-100 0)" />
+    </g>
+    <g transform="rotate(315 100 100)">
+      <path d="M100 84V25" stroke="#152d4f" stroke-width="6.5" stroke-linecap="round" />
+      <path d="M96 32V26C96 23 93 22 93 18V10C93 5 96 2 100 2S107 5 107 10V18C107 22 104 23 104 26V32Z" fill="#152d4f" transform="translate(100 0) scale(1.0 1) translate(-100 0)" />
+    </g>
+  </g>
+  <g id="rim">
+    <circle cx="100" cy="100" r="64" fill="none" stroke="#152d4f" stroke-width="12" />
+  </g>
+  <g id="hub">
+    <circle cx="100" cy="100" r="13" fill="none" stroke="#152d4f" stroke-width="7" />
+    <circle cx="100" cy="100" r="3" fill="#152d4f" />
+  </g>
 </svg>

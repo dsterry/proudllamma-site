@@ -500,6 +500,7 @@ body:has(.screenshot-dialog[open]) { overflow: hidden; }
 .kept-support h1 { margin-bottom: 1rem; }
 .kept-support h2[id] { scroll-margin-top: 1.5rem; }
 .kept-support li + li { margin-top: .6rem; }
+.support-setting { white-space: nowrap; }
 .support-control-icon { display: inline-block; margin-right: .25em; vertical-align: -.23em; }
 .kept-support-contact { margin-top: 3rem; padding: 1.25rem; border: 1px solid var(--rule); background: #edf1e7; }
 .kept-support-contact h2 { margin: 0 0 .75rem; }
