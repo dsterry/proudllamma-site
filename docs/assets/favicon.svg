@@ -1,5 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#f6f6ee" />
-  <circle cx="26" cy="25" r="13" fill="#70ceb0" />
-  <path d="M15 23 34 38 49 20 31 29Z" fill="#152d4f" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Proud Llama Games</title>
+  <desc>A cream llama with a closed eye and a brass crown on a navy square.</desc>
+  <metadata>Original favicon study adapted from the approved Proud Llama Games Storybook mascot.</metadata>
+  <rect id="navy-background" width="64" height="64" rx="14" fill="#152d4f"/>
+  <path id="far-ear" d="M29 27c-1-6 1-13 5-16 3 4 3 11 1 16Z" fill="#fff4dc" opacity=".48"/>
+  <path id="llama" fill="#fff4dc" d="M18 55c-3-3-3-7-1-10-2-4-1-8 2-10-1-4 1-8 4-11-4-6-4-13-2-16 5 2 9 8 10 16 5-1 9 0 13 2l10 4c4 2 3 6 0 8-4 3-10 3-16 3 3 3 4 6 3 9 2 2 2 4 1 6H20Z"/>
+  <path id="closed-eye" d="M39 32q3-4.6 6.4 0" fill="none" stroke="#152d4f" stroke-width="3.2" stroke-linecap="round"/>
+  <path id="crown" d="m35 24-1-10 5 3 4-6 3 6 6-2-3 10Z" fill="#e6a137" stroke="#152d4f" stroke-width="1.8" stroke-linejoin="round"/>
 </svg>
