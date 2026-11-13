@@ -446,7 +446,14 @@ figcaption {
 
 .kept-video-play:hover { background: var(--ink); }
 .kept-features { padding: clamp(1.75rem, 4vw, 3rem) 0 clamp(3rem, 7vw, 6rem); border-top: 1px solid var(--kept-brass); }
-.kept-features-intro { max-width: 41rem; margin-bottom: 1.75rem; }
+.kept-features-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(1.25rem, 4vw, 3rem);
+  margin-bottom: clamp(2rem, 5vw, 4rem);
+}
+.kept-puzzle-spread { width: 100%; height: auto; border-radius: 4px; }
 .kept-features-intro h2, .kept-community h2 { margin-bottom: .7rem; color: var(--kept-teal); }
 .kept-features-intro p, .kept-community p { margin-bottom: 0; color: var(--ink-soft); }
 .kept-gallery-controls { display: none; }
@@ -550,7 +557,7 @@ body:has(.screenshot-dialog[open]) { overflow: hidden; }
   .footer-brand { width: min(320px, 100%); }
   .page-shell { min-height: calc(100svh - 76px); }
   .page-intro { padding-top: 5rem; }
-  .kept-hero, .kept-gameplay, .studio-feature { grid-template-columns: 1fr; }
+  .kept-hero, .kept-features-intro, .kept-gameplay, .studio-feature { grid-template-columns: 1fr; }
   .kept-hero { padding: 1.15rem 1.1rem 1.5rem 1.4rem; gap: 1.25rem; }
   .kept-postcard { width: min(100%, 34rem); justify-self: center; }
   .kept-gameplay { gap: 1.4rem; }
