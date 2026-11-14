@@ -424,7 +424,7 @@ figcaption {
 .kept-video video {
   display: block;
   width: 100%;
-  aspect-ratio: 416 / 900;
+  aspect-ratio: 1080 / 2348;
   border-radius: 5px;
   object-fit: contain;
 }
@@ -457,7 +457,7 @@ figcaption {
 .kept-features-intro h2, .kept-community h2 { margin-bottom: .7rem; color: var(--kept-teal); }
 .kept-features-intro p, .kept-community p { margin-bottom: 0; color: var(--ink-soft); }
 .kept-gallery-controls { display: none; }
-.kept-feature-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(.85rem, 2.2vw, 1.65rem); }
+.kept-feature-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: clamp(.85rem, 2.2vw, 1.65rem); }
 .kept-screenshot { display: block; border-radius: 5px; box-shadow: 0 8px 20px var(--shadow); }
 .kept-screenshot img { width: 100%; height: auto; border-radius: inherit; }
 .kept-community {
