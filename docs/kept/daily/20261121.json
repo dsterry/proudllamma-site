@@ -1,0 +1,127 @@
+{
+  "schema_version": 12,
+  "id": "daily-20261121",
+  "display_name": "November 21, 2026",
+  "seed": 20443471162,
+  "dots": [
+    {
+      "id": "ordinary_1",
+      "spawn_weight": 1.0
+    },
+    {
+      "id": "ordinary_2",
+      "spawn_weight": 1.0
+    },
+    {
+      "id": "ordinary_3",
+      "spawn_weight": 1.0
+    },
+    {
+      "id": "ordinary_4",
+      "spawn_weight": 1.0
+    },
+    {
+      "id": "ordinary_5",
+      "spawn_weight": 1.0
+    }
+  ],
+  "layout": [
+    [
+      "random",
+      "random",
+      "block",
+      "block",
+      "cutout",
+      "random",
+      "random"
+    ],
+    [
+      "cutout",
+      "random",
+      "block",
+      "random",
+      "random",
+      "random",
+      "random"
+    ],
+    [
+      "cutout",
+      "random",
+      "block",
+      "random",
+      "block",
+      "cutout",
+      "block"
+    ],
+    [
+      "random",
+      "random",
+      "random",
+      "random",
+      "random",
+      "block",
+      "random"
+    ],
+    [
+      "random",
+      "random",
+      "block",
+      "cutout",
+      "random",
+      "random",
+      "block"
+    ],
+    [
+      "random",
+      "random",
+      "random",
+      "cutout",
+      "random",
+      "random",
+      "random"
+    ],
+    [
+      "random",
+      "random",
+      "cutout",
+      "block",
+      "block",
+      "cutout",
+      "random"
+    ]
+  ],
+  "objectives": [
+    {
+      "type": "collect_color",
+      "dot": "ordinary_1",
+      "amount": 20
+    },
+    {
+      "type": "collect_color",
+      "dot": "ordinary_2",
+      "amount": 20
+    },
+    {
+      "type": "collect_color",
+      "dot": "ordinary_3",
+      "amount": 20
+    },
+    {
+      "type": "collect_color",
+      "dot": "ordinary_4",
+      "amount": 20
+    },
+    {
+      "type": "collect_color",
+      "dot": "ordinary_5",
+      "amount": 20
+    }
+  ],
+  "move_budgets": {
+    "three_checks": 10,
+    "two_checks": 13,
+    "one_check": 16
+  },
+  "spawn_neighbor_bias": 0.2,
+  "allow_manual_rotation": true
+}
