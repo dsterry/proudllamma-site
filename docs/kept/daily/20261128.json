@@ -2,7 +2,71 @@
   "schema_version": 12,
   "id": "daily-20261128",
   "display_name": "November 28, 2026",
-  "seed": 20443478225,
+  "layout": [
+    [
+      "ordinary_4",
+      "ordinary_2",
+      "ordinary_4",
+      "block",
+      "cutout",
+      "block",
+      "block"
+    ],
+    [
+      "ordinary_3",
+      "ordinary_2",
+      "ordinary_2",
+      "ordinary_3",
+      "cutout",
+      "ordinary_2",
+      "cutout"
+    ],
+    [
+      "ordinary_2",
+      "ordinary_3",
+      "ordinary_3",
+      "ordinary_2",
+      "block",
+      "block",
+      "block"
+    ],
+    [
+      "block",
+      "ordinary_3",
+      "ordinary_2",
+      "cutout",
+      "ordinary_4",
+      "ordinary_4",
+      "ordinary_3"
+    ],
+    [
+      "cutout",
+      "cutout",
+      "block",
+      "ordinary_2",
+      "ordinary_2",
+      "ordinary_4",
+      "ordinary_2"
+    ],
+    [
+      "block",
+      "ordinary_5",
+      "block",
+      "ordinary_2",
+      "ordinary_1",
+      "ordinary_4",
+      "ordinary_2"
+    ],
+    [
+      "block",
+      "cutout",
+      "block",
+      "ordinary_2",
+      "ordinary_2",
+      "ordinary_4",
+      "ordinary_2"
+    ]
+  ],
   "dots": [
     {
       "id": "ordinary_1",
@@ -24,71 +88,6 @@
       "id": "ordinary_5",
       "spawn_weight": 1.0
     }
-  ],
-  "layout": [
-    [
-      "block",
-      "random",
-      "block",
-      "random",
-      "block",
-      "cutout",
-      "cutout"
-    ],
-    [
-      "random",
-      "random",
-      "random",
-      "random",
-      "cutout",
-      "random",
-      "random"
-    ],
-    [
-      "block",
-      "cutout",
-      "random",
-      "random",
-      "random",
-      "random",
-      "random"
-    ],
-    [
-      "random",
-      "random",
-      "random",
-      "block",
-      "random",
-      "random",
-      "random"
-    ],
-    [
-      "random",
-      "random",
-      "random",
-      "block",
-      "cutout",
-      "cutout",
-      "cutout"
-    ],
-    [
-      "cutout",
-      "cutout",
-      "cutout",
-      "random",
-      "random",
-      "cutout",
-      "block"
-    ],
-    [
-      "random",
-      "random",
-      "random",
-      "block",
-      "random",
-      "random",
-      "block"
-    ]
   ],
   "objectives": [
     {
@@ -118,10 +117,10 @@
     }
   ],
   "move_budgets": {
-    "three_checks": 23,
-    "two_checks": 26,
-    "one_check": 29
+    "three_checks": 17,
+    "two_checks": 20,
+    "one_check": 23
   },
-  "spawn_neighbor_bias": 0.2,
-  "allow_manual_rotation": true
+  "allow_manual_rotation": true,
+  "spawn_neighbor_bias": 0.2
 }
